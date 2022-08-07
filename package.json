@@ -1,0 +1,23 @@
+{
+  "name": "shoppikart",
+  "version": "1.0.0",
+  "description": "Shoppikart by Pobitra",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "cd backend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristiano-pob716/shoppikart-ecommerce-pobitra.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Pobitra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basir/mern-amazona/issues"
+  },
+  "homepage": "https://github.com/basir/mern-amazona#readme"
+}
