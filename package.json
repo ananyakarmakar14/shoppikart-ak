@@ -6,7 +6,7 @@
   "scripts": {
     "start": "cd backend && npm i --production && npm start",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "cd frontend && npm i && npm run build"
+    "heroku-postbuild": "cd frontend && npm i && npm run build && mv build ../backend"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "author": "Pobitra",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/basir/mern-amazona/issues"
+    "url": "https://github.com/cristiano-pob716/shoppikart-ecommerce-pobitra/issues"
   },
   "homepage": "https://github.com/basir/mern-amazona#readme"
 }
