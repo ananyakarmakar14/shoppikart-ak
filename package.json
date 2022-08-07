@@ -5,7 +5,8 @@
   "main": "backend/server.js",
   "scripts": {
     "start": "cd backend && npm i --production && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd frontend && npm i && npm run build"
   },
   "repository": {
     "type": "git",
