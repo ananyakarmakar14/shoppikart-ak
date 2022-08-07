@@ -44,7 +44,7 @@ app.use("/api/products", productRouter);
 app.use("/api/users", userRouter);
 app.use("/api/orders", orderRouter);
 
-app.get("/", (req, res) =>
+app.get("*", (req, res) =>
   res.sendFile(path.join(__dirname, "/build/index.html"))
 );
 
