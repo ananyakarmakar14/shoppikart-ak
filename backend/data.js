@@ -5,7 +5,7 @@ import path from "path";
 const data = {
   users: [
     {
-      name: "Pobitra",
+      name: "Ananya",
       email: "admin@example.com",
       password: bcrypt.hashSync("123456"),
       isAdmin: true,
